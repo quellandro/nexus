@@ -1,0 +1,22 @@
+PWA ACADEMY 2.0 — COMPLETE WEBSITE CONVERSION
+Publishing folder: repository root
+App: Nexus
+Changed HTML pages: 3
+about.html
+index.html
+innovations.html
+
+AUTOMATIC CHANGES
+Added app identity and PNG icons, standalone display, offline service worker, Install app control, viewport metadata and minimal mobile media safeguards. PWA ACADEMY comments explain the inserted sections. Original HTML content/scripts and source assets retained. Existing manifest links and academy/pwa-register.js references replaced; other custom registration code requires review.
+
+
+WHAT TO DO NEXT
+1. Extract this ZIP.
+2. Upload its CONTENTS back to your original GitHub repository, replacing the converted HTML and adding academy-* files. Preserve docs/ or other publishing-folder structure.
+3. Commit, wait for Pages deployment, and open the live HTTPS site.
+4. Load online and reload. Inspect DevTools > Application for manifest/service-worker status.
+5. Use Install app (or browser installation menu), then launch from its icon.
+6. Test cached pages offline and check all website features.
+7. For a new release, convert the latest repository ZIP again. Close old app windows and reopen online to activate the new worker.
+
+The ZIP is a complete installable web application, not a native APK/IPA. It must be published on HTTPS to install. Server-side PHP, build-time code, third-party APIs, payments and external resources do not become offline/native features. Existing nonresponsive layouts still need design work.
